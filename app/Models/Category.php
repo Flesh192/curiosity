@@ -20,7 +20,7 @@ class Category
     private string $imageUrl;
     private string $headerUrl;
     private string $backgroundUrl;
-    private string $subcategories;
+    private array $subcategories;
 
     /**
      * Category constructor.
